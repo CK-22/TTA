@@ -1,0 +1,175 @@
+body {
+  background-color: lightcyan;
+  text-align: center;
+}
+
+* {
+  font-family:Bangla Sangam MN ;
+}
+
+/* .intro {} */
+
+.header {
+  font-size: 25px;
+  text-align: center;
+  position: sticky;
+  width: 100%;
+  height: 35px;
+  background-color: #b7c8e9;
+}
+
+/*table {
+  display: inline block;
+  text-align: center;
+  margin: 35px auto;
+  float: right;
+  /*padding: ;
+  border-collapse: separate;
+} not needed */
+
+td {
+  border: 2px solid #b7c8e9;
+  width: 135px;
+  height: 35px;
+  text-align: center;
+} 
+
+img {
+  width: 255px;
+  height: 269px;
+  position: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    margin-left:15px;
+    margin-right:15px;
+  }
+    
+  .column {
+    float: right;
+    width: 50%;
+    padding: 120px;
+    
+  }
+  
+  /*  Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    display: float;
+  }
+  
+  table {
+    border-spacing: 20;
+    width: 55%;
+    border: 2px solid #b7c8e9;
+    float: center;
+    position: center;
+    margin: 41px auto;
+    border-radius: 6px;
+    vertical-align: baseline;
+  }
+  
+  th, td {
+    text-align: Center;
+    padding: 8px;
+    border: 2px solid #b7c8e9; 
+  }
+
+  .basket {
+    float: center;
+    position: center;
+    
+  }
+  /*.table1{
+    border-collapse: sep;
+  } not needed*/
+
+/* form */
+.form {
+  width: 100%;
+  position: center;
+  text-align: center;
+  margin-top: 10px;
+  /*border: solid 2px rgb(255, 255, 255);
+  background-color: #b7c8e9;*/
+}
+
+.form1 {
+  width: 99%;
+  position: center;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.formp {
+    font-size: 19px;
+}
+
+fieldset { 
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 2px rgb(255, 255, 255);
+    background-color: #b7c8e9;
+    border-radius: 6px;
+    min-width: 200px;
+   }
+ 
+   legend {
+     border-radius: 10px;
+     font-size: 22px;
+     padding: 0.25em;
+   }
+
+   label{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+   }
+
+   textarea{
+    height: 55px;
+    padding: .2em;
+    width: 100%;
+  padding: 10px 20px;
+  margin: 8px 10;
+  display: inline-block;
+  border:  solid 1px grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
+
+  input[type=text] , select, input[type=email] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 9px 10;
+    display: inline-block;
+    border: solid 1px grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+   }
+  
+
+   footer {
+    margin-top: 50px;
+    text-align: center;
+    position: sticky;
+    width: 100%;
+    bottom: 5px;
+    background-color: #b7c8e9;
+    z-index: 5;
+  }
+  footer h3 {
+    display: inline-block;
+    font-size: 14px;
+    background-color: #b7c8e9;
+  }
+
+  span {
+    color: rgb(105, 129, 236);
+  }

@@ -1,0 +1,9 @@
+
+.subheading{
+    background-color : rgb(230, 243, 45); 
+    color: black;
+    border: 2px solid black;
+    text-align : center;
+    margin : 5px;
+    padding : 10px;
+}
